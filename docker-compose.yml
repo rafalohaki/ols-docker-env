@@ -39,7 +39,7 @@ services:
     networks:
       - default
   phpmyadmin:
-    image: bitnami/phpmyadmin:5.2.0-debian-11-r43
+    image: bitnami/phpmyadmin:5.2.1
     ports:
       - 8080:8080
       - 8443:8443
